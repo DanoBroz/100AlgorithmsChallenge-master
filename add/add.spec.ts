@@ -1,7 +1,7 @@
-import { add, add2 } from './add';
+import { add, add2 } from "./add";
 
-xdescribe(add.name, () => {
-    it('test 1', () => {
+describe(add.name, () => {
+    it("test 1", () => {
         // act
         const result = add(1, 2);
 
@@ -9,7 +9,7 @@ xdescribe(add.name, () => {
         expect(result).toBe(3);
     });
 
-    it('test 2', () => {
+    it("test 2", () => {
         // act
         const result = add(3, 2);
 
@@ -18,9 +18,9 @@ xdescribe(add.name, () => {
     });
 });
 
-xdescribe(add2.name, () => {
+describe(add2.name, () => {
     // console.log(add2(2,3));
-    it('test 1', () => {
+    it("test 1", () => {
         // arrange
         const data = [1, 2, 3, 4, 5];
 
@@ -31,7 +31,7 @@ xdescribe(add2.name, () => {
         expect(result).toBe(15);
     });
 
-    it('test 2', () => {
+    it("test 2", () => {
         // arrange
         const data = [2, 3];
 
